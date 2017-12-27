@@ -5,11 +5,7 @@
     "parkrates" : [
     ],
     "motions" : [
-        "10b8b8452f10c025318e5837586e93ddcb020fb4",
-        "1b2364f0a9ac919a2372feb84c9ad616400b42e0",
-        "f73d264a2053b6eb3bcd2166a2052083f4083972",
-        "58ca74b14b6ea4fc73aa943688d52c590f60b1e5",
-        "1f8d60f8c1ab0016aa2653fd9c7ef6de89d7b8bb"
+        "10b8b8452f10c025318e5837586e93ddcb020fb4"
     ],
     "fees" : {
         "8" : 0.001,
@@ -22,7 +18,7 @@
         },
         {
             "address" : "8Yq1JGmKAm4qyitx6atpUz1QQqqFm5Ki19",
-            "weight" : 10
+            "weight" : 100
         },
         {
             "address" : "8ZzENdnyZLDvsZPJmZhQYtdzaBwSKDLXGX",
@@ -38,7 +34,7 @@
         },
         {
             "address" : "8KXAthBdtPWokQRXB93FzPTKvBH5WXdTxV",
-            "weight" : 50
+            "weight" : 100
         },
         {
             "address" : "8c3VfkYUUaFWp75SiMhFasmWwmYVoWqTaT",
@@ -50,6 +46,10 @@
         },
         {
             "address" : "8Z3cSbWKeCiE5A15dJpsHmou34w5BYVHqM",
+            "weight" : -127
+        },
+        {
+            "address" : "8Qvm1JHeZfcYvXLykixainh3hDtPhandas",
             "weight" : -127
         }
     ],
@@ -86,6 +86,33 @@
             "unitexponent" : 8
         },
         {
+            "assetid" : "DASH",
+            "confirmations" : 3,
+            "reqsigners" : 3,
+            "totalsigners" : 5,
+            "maxtrade" : 1.0,
+            "mintrade" : 0.01,
+            "unitexponent" : 8
+        },
+        {
+            "assetid" : "LTC",
+            "confirmations" : 2,
+            "reqsigners" : 3,
+            "totalsigners" : 5,
+            "maxtrade" : 1.0,
+            "mintrade" : 0.01,
+            "unitexponent" : 8
+        },
+        {
+            "assetid" : "MONA",
+            "confirmations" : 3,
+            "reqsigners" : 3,
+            "totalsigners" : 5,
+            "maxtrade" : 1000.0,
+            "mintrade" : 0.1,
+            "unitexponent" : 8
+        },
+        {
             "assetid" : "NBT",
             "confirmations" : 3,
             "reqsigners" : 3,
@@ -104,6 +131,15 @@
             "unitexponent" : 8
         },
         {
+            "assetid" : "NXT",
+            "confirmations" : 3,
+            "reqsigners" : 3,
+            "totalsigners" : 5,
+            "maxtrade" : 100.0,
+            "mintrade" : 0.001,
+            "unitexponent" : 8
+        },
+        {
             "assetid" : "PPC",
             "confirmations" : 1,
             "reqsigners" : 3,
@@ -111,6 +147,15 @@
             "maxtrade" : 20.0,
             "mintrade" : 0.1,
             "unitexponent" : 6
+        },
+        {
+            "assetid" : "VTC",
+            "confirmations" : 3,
+            "reqsigners" : 3,
+            "totalsigners" : 5,
+            "maxtrade" : 100.0,
+            "mintrade" : 0.1,
+            "unitexponent" : 8
         },
         {
             "assetid" : "XPM",
